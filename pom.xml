@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.MTH</groupId>
-  <artifactId>g49-lecture-JDBC_1</artifactId>
+  <artifactId>g49-Workshop-JDBC</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -21,5 +21,9 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+      <groupId>com.microsoft.sqlserver</groupId>
+      <artifactId>mssql-jdbc</artifactId>
+      <version>8.2.1.jre11</version>
   </dependencies>
 </project>
